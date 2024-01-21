@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3296832427BDB85B00F8A76D /* RoomScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296832327BDB85B00F8A76D /* RoomScreenView.swift */; };
+		3296832F27E65BBC00F8A76D /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3296832E27E65BBC00F8A76D /* ColorExtension.swift */; };
+		329835AF28638CD3009B0411 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329835AE28638CD3009B0411 /* ForgotPasswordView.swift */; };
+		32A60B2528448108005E4FF0 /* CreateRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A60B2428448108005E4FF0 /* CreateRoomView.swift */; };
+		32A8B8D4281F0A9000E524D4 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8D3281F0A9000E524D4 /* BarChartView.swift */; };
+		32A8B8D6281F0AD800E524D4 /* BarChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8D5281F0AD800E524D4 /* BarChartCell.swift */; };
+		32A8B8D8281F0AE900E524D4 /* BarChartRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8D7281F0AE900E524D4 /* BarChartRow.swift */; };
+		32A8B8DA281F0AFF00E524D4 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8D9281F0AFF00E524D4 /* Helpers.swift */; };
+		32A8B8DC281F0B4200E524D4 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8DB281F0B4200E524D4 /* LabelView.swift */; };
+		32A8B8DE282633DF00E524D4 /* HomeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8DD282633DF00E524D4 /* HomeSettingsView.swift */; };
+		32A8B8E0282633F800E524D4 /* RoomSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8DF282633F800E524D4 /* RoomSettingsView.swift */; };
+		32A8B8E22827FA2D00E524D4 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8E12827FA2D00E524D4 /* ViewExtension.swift */; };
+		32A8B8E428303B6300E524D4 /* BorderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8E328303B6300E524D4 /* BorderExtension.swift */; };
+		32A8B8E82831A69C00E524D4 /* JoinRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8E72831A69B00E524D4 /* JoinRoomView.swift */; };
+		32A8B8EA2832A2A800E524D4 /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8E92832A2A800E524D4 /* BottomTabView.swift */; };
+		32A8B8EC283C20AA00E524D4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8B8EB283C20A900E524D4 /* LoadingView.swift */; };
+		32F1D0E12803582100233F85 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 32F1D0E02803582100233F85 /* SwiftUICharts */; };
+		DD0567EE27ACAB3000E4D42A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0567ED27ACAB3000E4D42A /* UserSettings.swift */; };
+		DD6BF3A1278A2FC40071E3DB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BF3A0278A2FC40071E3DB /* LoginView.swift */; };
+		DD6BF3A4278A3AE20071E3DB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = DD6BF3A3278A3AE20071E3DB /* FirebaseAuth */; };
+		DD6BF3A6278A43DB0071E3DB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6BF3A5278A43DB0071E3DB /* ImagePicker.swift */; };
+		DD6BF3A8278A495E0071E3DB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = DD6BF3A7278A495E0071E3DB /* FirebaseStorage */; };
+		DD8DE9BD27A72661003328BD /* KeychainServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8DE9BC27A72661003328BD /* KeychainServices.swift */; };
+		DD972D23281CD085005FDE20 /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD972D22281CD085005FDE20 /* UIScreenExtension.swift */; };
+		DDA1B72C2825DC92005A8B9C /* RoomCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1B72B2825DC92005A8B9C /* RoomCreationView.swift */; };
+		DDA1B72E2825DCF7005A8B9C /* RoomCreationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA1B72D2825DCF7005A8B9C /* RoomCreationModel.swift */; };
+		DDBF67FA2788B1F300CD0864 /* CoGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF67F92788B1F300CD0864 /* CoGoApp.swift */; };
+		DDBF67FC2788B1F300CD0864 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF67FB2788B1F300CD0864 /* MainScreenView.swift */; };
+		DDBF67FE2788B1F400CD0864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBF67FD2788B1F400CD0864 /* Assets.xcassets */; };
+		DDBF68012788B1F400CD0864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDBF68002788B1F400CD0864 /* Preview Assets.xcassets */; };
+		DDBF680B2788B7C300CD0864 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DDBF680A2788B7C300CD0864 /* FirebaseFirestore */; };
+		DDBF68102788BB0000CD0864 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF680F2788BB0000CD0864 /* ViewModel.swift */; };
+		DDBF68132788BC3D00CD0864 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF68122788BC3D00CD0864 /* User.swift */; };
+		DDC997B62788DF35002DAEC8 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC997B52788DF35002DAEC8 /* Room.swift */; };
+		DDC997B82788DFE6002DAEC8 /* RoomModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC997B72788DFE6002DAEC8 /* RoomModel.swift */; };
+		DDD7F8A528637B3500157F51 /* Progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD7F8A428637B3500157F51 /* Progress.swift */; };
+		DDDCA3DE286C98520084D20F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDDCA3DD286C98520084D20F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3296832327BDB85B00F8A76D /* RoomScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomScreenView.swift; sourceTree = "<group>"; };
+		3296832E27E65BBC00F8A76D /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		329835AE28638CD3009B0411 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		32A60B2428448108005E4FF0 /* CreateRoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRoomView.swift; sourceTree = "<group>"; };
+		32A8B8D3281F0A9000E524D4 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		32A8B8D5281F0AD800E524D4 /* BarChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartCell.swift; sourceTree = "<group>"; };
+		32A8B8D7281F0AE900E524D4 /* BarChartRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartRow.swift; sourceTree = "<group>"; };
+		32A8B8D9281F0AFF00E524D4 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		32A8B8DB281F0B4200E524D4 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		32A8B8DD282633DF00E524D4 /* HomeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSettingsView.swift; sourceTree = "<group>"; };
+		32A8B8DF282633F800E524D4 /* RoomSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomSettingsView.swift; sourceTree = "<group>"; };
+		32A8B8E12827FA2D00E524D4 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		32A8B8E328303B6300E524D4 /* BorderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderExtension.swift; sourceTree = "<group>"; };
+		32A8B8E72831A69B00E524D4 /* JoinRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinRoomView.swift; sourceTree = "<group>"; };
+		32A8B8E92832A2A800E524D4 /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
+		32A8B8EB283C20A900E524D4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		DD0567ED27ACAB3000E4D42A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		DD6BF3A0278A2FC40071E3DB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DD6BF3A5278A43DB0071E3DB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		DD8DE9BC27A72661003328BD /* KeychainServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainServices.swift; sourceTree = "<group>"; };
+		DD972D22281CD085005FDE20 /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
+		DDA1B72B2825DC92005A8B9C /* RoomCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCreationView.swift; sourceTree = "<group>"; };
+		DDA1B72D2825DCF7005A8B9C /* RoomCreationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCreationModel.swift; sourceTree = "<group>"; };
+		DDBF67F62788B1F300CD0864 /* Cogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBF67F92788B1F300CD0864 /* CoGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoGoApp.swift; sourceTree = "<group>"; };
+		DDBF67FB2788B1F300CD0864 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		DDBF67FD2788B1F400CD0864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDBF68002788B1F400CD0864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDBF680F2788BB0000CD0864 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		DDBF68122788BC3D00CD0864 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DDC997B52788DF35002DAEC8 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		DDC997B72788DFE6002DAEC8 /* RoomModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomModel.swift; sourceTree = "<group>"; };
+		DDD7F8A428637B3500157F51 /* Progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Progress.swift; sourceTree = "<group>"; };
+		DDDCA3DD286C98520084D20F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDBF67F32788B1F300CD0864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBF680B2788B7C300CD0864 /* FirebaseFirestore in Frameworks */,
+				32F1D0E12803582100233F85 /* SwiftUICharts in Frameworks */,
+				DD6BF3A4278A3AE20071E3DB /* FirebaseAuth in Frameworks */,
+				DD6BF3A8278A495E0071E3DB /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3296832227B309DD00F8A76D /* Archived */ = {
+			isa = PBXGroup;
+			children = (
+				DDC997B72788DFE6002DAEC8 /* RoomModel.swift */,
+				DDBF680F2788BB0000CD0864 /* ViewModel.swift */,
+				DD6BF3A5278A43DB0071E3DB /* ImagePicker.swift */,
+				DDA1B72B2825DC92005A8B9C /* RoomCreationView.swift */,
+			);
+			path = Archived;
+			sourceTree = "<group>";
+		};
+		3296832D27E65BAB00F8A76D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3296832E27E65BBC00F8A76D /* ColorExtension.swift */,
+				DD972D22281CD085005FDE20 /* UIScreenExtension.swift */,
+				32A8B8E12827FA2D00E524D4 /* ViewExtension.swift */,
+				32A8B8E328303B6300E524D4 /* BorderExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		32A8B8D2281F0A7200E524D4 /* BarChart */ = {
+			isa = PBXGroup;
+			children = (
+				32A8B8D3281F0A9000E524D4 /* BarChartView.swift */,
+				32A8B8D5281F0AD800E524D4 /* BarChartCell.swift */,
+				32A8B8D7281F0AE900E524D4 /* BarChartRow.swift */,
+				32A8B8D9281F0AFF00E524D4 /* Helpers.swift */,
+				32A8B8DB281F0B4200E524D4 /* LabelView.swift */,
+			);
+			path = BarChart;
+			sourceTree = "<group>";
+		};
+		DD6BF3A2278A3AE20071E3DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDBF67ED2788B1F300CD0864 = {
+			isa = PBXGroup;
+			children = (
+				DDBF67F82788B1F300CD0864 /* CoGo */,
+				DDBF67F72788B1F300CD0864 /* Products */,
+				DD6BF3A2278A3AE20071E3DB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDBF67F72788B1F300CD0864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF67F62788B1F300CD0864 /* Cogo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDBF67F82788B1F300CD0864 /* CoGo */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF67F92788B1F300CD0864 /* CoGoApp.swift */,
+				DDBF680C2788BAAD00CD0864 /* Views */,
+				3296832D27E65BAB00F8A76D /* Extensions */,
+				32A8B8D2281F0A7200E524D4 /* BarChart */,
+				DDBF68112788BC0900CD0864 /* Models */,
+				DDBF67FF2788B1F400CD0864 /* Preview Content */,
+				3296832227B309DD00F8A76D /* Archived */,
+				DDBF67FD2788B1F400CD0864 /* Assets.xcassets */,
+				DDDCA3DD286C98520084D20F /* GoogleService-Info.plist */,
+			);
+			path = CoGo;
+			sourceTree = "<group>";
+		};
+		DDBF67FF2788B1F400CD0864 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF68002788B1F400CD0864 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDBF680C2788BAAD00CD0864 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF67FB2788B1F300CD0864 /* MainScreenView.swift */,
+				32A60B2428448108005E4FF0 /* CreateRoomView.swift */,
+				32A8B8DD282633DF00E524D4 /* HomeSettingsView.swift */,
+				DD6BF3A0278A2FC40071E3DB /* LoginView.swift */,
+				3296832327BDB85B00F8A76D /* RoomScreenView.swift */,
+				32A8B8DF282633F800E524D4 /* RoomSettingsView.swift */,
+				32A8B8E72831A69B00E524D4 /* JoinRoomView.swift */,
+				32A8B8E92832A2A800E524D4 /* BottomTabView.swift */,
+				32A8B8EB283C20A900E524D4 /* LoadingView.swift */,
+				329835AE28638CD3009B0411 /* ForgotPasswordView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDBF68112788BC0900CD0864 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDBF68122788BC3D00CD0864 /* User.swift */,
+				DDC997B52788DF35002DAEC8 /* Room.swift */,
+				DDD7F8A428637B3500157F51 /* Progress.swift */,
+				DDA1B72D2825DCF7005A8B9C /* RoomCreationModel.swift */,
+				DD0567ED27ACAB3000E4D42A /* UserSettings.swift */,
+				DD8DE9BC27A72661003328BD /* KeychainServices.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDBF67F52788B1F300CD0864 /* CoGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDBF68042788B1F400CD0864 /* Build configuration list for PBXNativeTarget "CoGo" */;
+			buildPhases = (
+				DDBF67F22788B1F300CD0864 /* Sources */,
+				DDBF67F32788B1F300CD0864 /* Frameworks */,
+				DDBF67F42788B1F300CD0864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoGo;
+			packageProductDependencies = (
+				DDBF680A2788B7C300CD0864 /* FirebaseFirestore */,
+				DD6BF3A3278A3AE20071E3DB /* FirebaseAuth */,
+				DD6BF3A7278A495E0071E3DB /* FirebaseStorage */,
+				32F1D0E02803582100233F85 /* SwiftUICharts */,
+			);
+			productName = CoGo;
+			productReference = DDBF67F62788B1F300CD0864 /* Cogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDBF67EE2788B1F300CD0864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DDBF67F52788B1F300CD0864 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DDBF67F12788B1F300CD0864 /* Build configuration list for PBXProject "Cogo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDBF67ED2788B1F300CD0864;
+			packageReferences = (
+				DDBF68092788B7C300CD0864 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				32F1D0DF2803582100233F85 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = DDBF67F72788B1F300CD0864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDBF67F52788B1F300CD0864 /* CoGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDBF67F42788B1F300CD0864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBF68012788B1F400CD0864 /* Preview Assets.xcassets in Resources */,
+				DDBF67FE2788B1F400CD0864 /* Assets.xcassets in Resources */,
+				DDDCA3DE286C98520084D20F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDBF67F22788B1F300CD0864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBF68132788BC3D00CD0864 /* User.swift in Sources */,
+				32A8B8DC281F0B4200E524D4 /* LabelView.swift in Sources */,
+				DDBF67FC2788B1F300CD0864 /* MainScreenView.swift in Sources */,
+				DD6BF3A6278A43DB0071E3DB /* ImagePicker.swift in Sources */,
+				32A8B8DE282633DF00E524D4 /* HomeSettingsView.swift in Sources */,
+				32A8B8EC283C20AA00E524D4 /* LoadingView.swift in Sources */,
+				DDD7F8A528637B3500157F51 /* Progress.swift in Sources */,
+				32A8B8E22827FA2D00E524D4 /* ViewExtension.swift in Sources */,
+				32A60B2528448108005E4FF0 /* CreateRoomView.swift in Sources */,
+				32A8B8D6281F0AD800E524D4 /* BarChartCell.swift in Sources */,
+				329835AF28638CD3009B0411 /* ForgotPasswordView.swift in Sources */,
+				32A8B8E82831A69C00E524D4 /* JoinRoomView.swift in Sources */,
+				DDC997B82788DFE6002DAEC8 /* RoomModel.swift in Sources */,
+				DDBF68102788BB0000CD0864 /* ViewModel.swift in Sources */,
+				32A8B8E428303B6300E524D4 /* BorderExtension.swift in Sources */,
+				DDBF67FA2788B1F300CD0864 /* CoGoApp.swift in Sources */,
+				DD972D23281CD085005FDE20 /* UIScreenExtension.swift in Sources */,
+				DDA1B72C2825DC92005A8B9C /* RoomCreationView.swift in Sources */,
+				32A8B8D4281F0A9000E524D4 /* BarChartView.swift in Sources */,
+				DD8DE9BD27A72661003328BD /* KeychainServices.swift in Sources */,
+				32A8B8EA2832A2A800E524D4 /* BottomTabView.swift in Sources */,
+				DD6BF3A1278A2FC40071E3DB /* LoginView.swift in Sources */,
+				32A8B8D8281F0AE900E524D4 /* BarChartRow.swift in Sources */,
+				32A8B8DA281F0AFF00E524D4 /* Helpers.swift in Sources */,
+				DDC997B62788DF35002DAEC8 /* Room.swift in Sources */,
+				32A8B8E0282633F800E524D4 /* RoomSettingsView.swift in Sources */,
+				3296832F27E65BBC00F8A76D /* ColorExtension.swift in Sources */,
+				DD0567EE27ACAB3000E4D42A /* UserSettings.swift in Sources */,
+				DDA1B72E2825DCF7005A8B9C /* RoomCreationModel.swift in Sources */,
+				3296832427BDB85B00F8A76D /* RoomScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DDBF68022788B1F400CD0864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDBF68032788B1F400CD0864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDBF68052788B1F400CD0864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoGo/Preview Content\"";
+				DEVELOPMENT_TEAM = LWDRBSQBSZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theCogoApp.Cogo;
+				PRODUCT_NAME = Cogo;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDBF68062788B1F400CD0864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoGo/Preview Content\"";
+				DEVELOPMENT_TEAM = LWDRBSQBSZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.theCogoApp.Cogo;
+				PRODUCT_NAME = Cogo;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDBF67F12788B1F300CD0864 /* Build configuration list for PBXProject "Cogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBF68022788B1F400CD0864 /* Debug */,
+				DDBF68032788B1F400CD0864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDBF68042788B1F400CD0864 /* Build configuration list for PBXNativeTarget "CoGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDBF68052788B1F400CD0864 /* Debug */,
+				DDBF68062788B1F400CD0864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		32F1D0DF2803582100233F85 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		DDBF68092788B7C300CD0864 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		32F1D0E02803582100233F85 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 32F1D0DF2803582100233F85 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		DD6BF3A3278A3AE20071E3DB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDBF68092788B7C300CD0864 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		DD6BF3A7278A495E0071E3DB /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDBF68092788B7C300CD0864 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		DDBF680A2788B7C300CD0864 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDBF68092788B7C300CD0864 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DDBF67EE2788B1F300CD0864 /* Project object */;
+}
